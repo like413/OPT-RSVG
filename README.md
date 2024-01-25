@@ -1,5 +1,5 @@
-# LaLGA: Multi-Scale Language-Aware Visual Grounding on Remote Sensing Data  
-This is the offical PyTorch code for paper "LaLGA: Multi-Scale Language-Aware Visual Grounding on Remote Sensing Data"  
+# Advancing Visual Grounding in Remote Sensing by Language-Guided Progressive Attention  
+This is the offical PyTorch code for paper "Advancing Visual Grounding in Remote Sensing by Language-Guided Progressive Attention"  
 The code of our method will be open source after the paper is published.  
 ## OPT-RSVG Dataset 
 
