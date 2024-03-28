@@ -8,10 +8,12 @@ The code of our method will be open source after the paper is published.
 - [Performance Comparison](#Performance-Comparison)
 
 ## OPT-RSVG Dataset
-Download our dataset files. We build the first large-scale dataset for RSVG, termed OPT-RSVG, which can be downloaded from our [Google Drive](https://drive.google.com/drive/folders/1e_wOtkruWAB2JXR7aqaMZMrM75IkjqCA?usp=drive_link). 
+We build a new large-scale dataset for RSVG, termed OPT-RSVG, which can be downloaded from our [Google Drive](https://drive.google.com/drive/folders/1e_wOtkruWAB2JXR7aqaMZMrM75IkjqCA?usp=drive_link). 
 
 The download link is available below:
+```
 https://drive.google.com/drive/folders/1e_wOtkruWAB2JXR7aqaMZMrM75IkjqCA?usp=drive_link
+```
 
 The dataset contains 25,452 RS images and 48,952 image-query pairs.
 ![OPT-RSVG Dataset](https://github.com/like413/OPT-RSVG/blob/main/fig/OPT-RSVG.png)
