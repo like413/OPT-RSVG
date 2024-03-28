@@ -1,7 +1,8 @@
-# Advancing Visual Grounding in Remote Sensing by Language-Guided Progressive Attention  
-This is the offical PyTorch code for paper "Advancing Visual Grounding in Remote Sensing by Language-Guided Progressive Attention"  
+# Language-Guided Progressive Attention for Visual Grounding in Remote Sensing Images 
+This is the offical PyTorch code for paper "Language-Guided Progressive Attention for Visual Grounding in Remote Sensing Images"  
 The code of our method will be open source after the paper is published.  
 ## OPT-RSVG Dataset 
+The \href{https://drive.google.com/drive/folders/1e_wOtkruWAB2JXR7aqaMZMrM75IkjqCA?usp=drive_link}{OPT-RSVG} are open source.
 
 The dataset contains 25452 RS images and 48952 image-query pairs, with expressions provided in both Chinese and English versions.
 ![OPT-RSVG Dataset](https://github.com/like413/OPT-RSVG/blob/main/fig/OPT-RSVG.png)
