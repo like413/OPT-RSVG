@@ -78,3 +78,16 @@ The above line introduces the proposed framework of LPVA. It consists of five co
 | MGVLF | TGRS'23 | ResNet-50 | BERT | 75.98 | 72.06 | 65.23 | 54.89 | 35.65 | 67.48 | 78.63 |
 | **Ours:** |  |  |  |                       |  |  |  |  |  |  |
 | LPVA | - | ResNet-50 | BERT | 82.27                 | **77.44** | **72.25** | **60.98** | **39.55** | **72.35** | **85.11** |
+
+## Citation
+If you found this code useful, please cite the paper. Welcome 👍Fork and Star👍, then I will let you know when we update.
+
+```
+@ARTICLE{10584552,
+  author={Li, Ke and Wang, Di and Xu, Haojie and Zhong, Haodi and Wang, Cong},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Language-Guided Progressive Attention for Visual Grounding in Remote Sensing Images}, 
+  year={2024},
+  keywords={Visualization;Feature extraction;Linguistics;Grounding;Remote sensing;Location awareness;Transformers;Visual grounding;remote sensing;progressive attention;multi-level feature enhancement},
+  doi={10.1109/TGRS.2024.3423663}}
+```
