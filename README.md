@@ -88,6 +88,9 @@ If you found this code useful, please cite the paper. Welcome üëçFork and Star
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={Language-Guided Progressive Attention for Visual Grounding in Remote Sensing Images}, 
   year={2024},
-  keywords={Visualization;Feature extraction;Linguistics;Grounding;Remote sensing;Location awareness;Transformers;Visual grounding;remote sensing;progressive attention;multi-level feature enhancement},
+  volume={62},
+  number={},
+  pages={1-13},
+  keywords={Visualization;Feature extraction;Linguistics;Grounding;Remote sensing;Location awareness;Transformers;Multilevel feature enhancement (MFE);progressive attention (PA);remote sensing (RS);visual grounding (VG)},
   doi={10.1109/TGRS.2024.3423663}}
 ```
