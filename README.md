@@ -1,6 +1,6 @@
-# Language-Guided Progressive Attention for Visual Grounding in Remote Sensing Images 
-This is the offical PyTorch code for paper "Language-Guided Progressive Attention for Visual Grounding in Remote Sensing Images"  
-The code of our method will be open source after the paper is published.  
+# Advancing Remote Sensing Visual Grounding with Language-Guided Progressive Attention
+This is the offical PyTorch code for paper "Advancing Remote Sensing Visual Grounding with Language-Guided Progressive Attention"  
+The [dataset](https://drive.google.com/drive/folders/1e_wOtkruWAB2JXR7aqaMZMrM75IkjqCA?usp=drive_link) is open source.  
 
 ## Contents
 - [OPT-RSVG Dataset](#OPT-RSVG-Dataset)
@@ -8,15 +8,8 @@ The code of our method will be open source after the paper is published.
 - [Performance Comparison](#Performance-Comparison)
 
 ## OPT-RSVG Dataset
-We build a new large-scale dataset for RSVG, termed OPT-RSVG, which can be downloaded from our [Google Drive](https://drive.google.com/drive/folders/1e_wOtkruWAB2JXR7aqaMZMrM75IkjqCA?usp=drive_link). 
-
-The download link is available below:
-```
-https://drive.google.com/drive/folders/1e_wOtkruWAB2JXR7aqaMZMrM75IkjqCA?usp=drive_link
-```
-
 The dataset contains 25,452 RS images and 48,952 image-query pairs.
-![OPT-RSVG Dataset](https://github.com/like413/OPT-RSVG/blob/main/fig/OPT-RSVG.png)
+![OPT-RSVG Dataset](fig/OPT-RSVG.png)
 Training, validation, and test sample numbers for OPT-RSVG datasets.
 
 | No. | Class Name         | OPT-RSVG dataset |  |  |
@@ -39,7 +32,7 @@ Training, validation, and test sample numbers for OPT-RSVG datasets.
 | -   | Total              | **19580**         | **4895**   | **24477**|
 
 ## LPVA Framework
-![OPT-RSVG Dataset](https://github.com/like413/OPT-RSVG/blob/main/fig/architecture.png)
+![OPT-RSVG Dataset](fig/architecture.png)
 The above line introduces the proposed framework of LPVA. It consists of five components: (1) Linguistic Backbone, which extracts linguistic features from referring expressions, (2) Progressive Attention module, which generates dynamic weights and biases for visual backbone conditioned on specific expressions, (3) Visual Backbone, which extracts visual features from raw images and its attention can be modified by language-adaptive weights, (4) Multi-Level Feature Enhancement Decoder, which aggregates visual contextual information to enhance the uniqueness, and (5) Localization Module, which predicts the bounding box.
 
 ## Performance Comparison
@@ -78,19 +71,3 @@ The above line introduces the proposed framework of LPVA. It consists of five co
 | MGVLF | TGRS'23 | ResNet-50 | BERT | 75.98 | 72.06 | 65.23 | 54.89 | 35.65 | 67.48 | 78.63 |
 | **Ours:** |  |  |  |                       |  |  |  |  |  |  |
 | LPVA | - | ResNet-50 | BERT | 82.27                 | **77.44** | **72.25** | **60.98** | **39.55** | **72.35** | **85.11** |
-
-## Citation
-If you found this code useful, please cite the paper. Welcome 👍Fork and Star👍, then I will let you know when we update.
-
-```
-@ARTICLE{10584552,
-  author={Li, Ke and Wang, Di and Xu, Haojie and Zhong, Haodi and Wang, Cong},
-  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Language-Guided Progressive Attention for Visual Grounding in Remote Sensing Images}, 
-  year={2024},
-  volume={62},
-  number={},
-  pages={1-13},
-  keywords={Visualization;Feature extraction;Linguistics;Grounding;Remote sensing;Location awareness;Transformers;Multilevel feature enhancement (MFE);progressive attention (PA);remote sensing (RS);visual grounding (VG)},
-  doi={10.1109/TGRS.2024.3423663}}
-```
