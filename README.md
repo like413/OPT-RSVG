@@ -1,6 +1,5 @@
 # Advancing Remote Sensing Visual Grounding with Language-Guided Progressive Attention
 This is the offical PyTorch code for paper "Advancing Remote Sensing Visual Grounding with Language-Guided Progressive Attention"  
-The [dataset](https://drive.google.com/drive/folders/1e_wOtkruWAB2JXR7aqaMZMrM75IkjqCA?usp=drive_link) is open source.  
 
 ## Contents
 - [OPT-RSVG Dataset](#OPT-RSVG-Dataset)
@@ -30,6 +29,10 @@ Training, validation, and test sample numbers for OPT-RSVG datasets.
 | C13 | vehicle            | 3294             | 811        | 4083|
 | C14 | swimming pool      | 1128          | 308        | 1563|
 | -   | Total              | **19580**         | **4895**   | **24477**|
+
+The dataset is open source:
+[Google Drive](https://drive.google.com/drive/folders/1e_wOtkruWAB2JXR7aqaMZMrM75IkjqCA?usp=drive_link),
+[Baidu Netdisk](https://pan.baidu.com/s/1vitw0yc-j0uFFHRPxVdZig) 提取码: 92yk 
 
 ## LPVA Framework
 ![OPT-RSVG Dataset](fig/architecture.png)
