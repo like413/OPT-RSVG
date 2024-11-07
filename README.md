@@ -1,5 +1,5 @@
-# Advancing Remote Sensing Visual Grounding with Language-Guided Progressive Attention
-This is the offical PyTorch code for paper "Advancing Remote Sensing Visual Grounding with Language-Guided Progressive Attention"  
+# Language-Guided Progressive Attention for Visual Grounding in Remote Sensing Images
+This is the offical PyTorch code for paper "Language-Guided Progressive Attention for Visual Grounding in Remote Sensing Images"  
 
 ## Contents
 - [OPT-RSVG Dataset](#OPT-RSVG-Dataset)
