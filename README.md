@@ -1,5 +1,5 @@
 # Language-Guided Progressive Attention for Visual Grounding in Remote Sensing Images
-This is the offical PyTorch code for paper "Language-Guided Progressive Attention for Visual Grounding in Remote Sensing Images"  
+## This repository is the official implementation of TGRS 2024 "Language-Guided Progressive Attention for Visual Grounding in Remote Sensing Images" at: [IEEE TGRS](https://ieeexplore.ieee.org/abstract/document/10584552). 
 
 ## Contents
 - [OPT-RSVG Dataset](#OPT-RSVG-Dataset)
