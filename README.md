@@ -31,9 +31,12 @@ Training, validation, and test sample numbers for OPT-RSVG datasets.
 | C14 | swimming pool      | 1128          | 308        | 1563|
 | -   | Total              | **19580**         | **4895**   | **24477**|
 
-The dataset is open source:
+Our OPT-RSVG dataset is open source:
 [Google Drive](https://drive.google.com/drive/folders/1e_wOtkruWAB2JXR7aqaMZMrM75IkjqCA?usp=drive_link),
 [Baidu Netdisk](https://pan.baidu.com/s/1vitw0yc-j0uFFHRPxVdZig) 提取码: 92yk 
+
+The used DIOR-RSVG dataset is available at:
+[Baidu Netdisk](https://pan.baidu.com/s/18nQWTcV1u3O0goonK-t0Jg?pwd=DIOR) 提取码: DIOR 
 
 ## LPVA Framework
 ![OPT-RSVG Dataset](fig/architecture.png)
